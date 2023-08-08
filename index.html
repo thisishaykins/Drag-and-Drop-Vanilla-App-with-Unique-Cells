@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Drag-and-Drop Vanilla App with Unique Cells</title>
+</head>
+
+<body>
+    <header>
+        <h1>Drag-and-Drop Vanilla App with Unique Cells</h1>
+        <hr>
+    </header>
+    <main>
+        <table id="dragTable">
+            <tbody id="dragTableTBody">
+                <tr>
+                    <td>
+                        <div class="draggable" draggable="true" data-number="100">100</div>
+                    </td>
+                    <td>
+                        <div class="draggable" draggable="true" data-number="200">200</div>
+                    </td>
+                    <td>
+                        <div class="draggable" draggable="true" data-number="300">300</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="draggable" draggable="true" data-number="400">400</div>
+                    </td>
+                    <td>
+                        <div class="draggable" draggable="true" data-number="500">500</div>
+                    </td>
+                    <td>
+                        <div class="draggable" draggable="true" data-number="600">600</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="draggable" draggable="true" data-number="700">700</div>
+                    </td>
+                    <td>
+                        <div class="draggable" draggable="true" data-number="800">800</div>
+                    </td>
+                    <td>
+                        <div class="draggable" draggable="true" data-number="900">900</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="addRow" class="btn">Add Row</button>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

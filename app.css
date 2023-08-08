@@ -1,0 +1,107 @@
+body {
+    /* display: flex; */
+    margin: 0;
+}
+
+header, main {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    scroll-behavior: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+
+td {
+    border: 1px solid #ccc;
+    width: 33%;
+    height: 33%;
+    position: relative;
+    padding: 10px 0px;
+}
+
+.btn {
+    background: #53534b;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #53534b;
+    border: 1px solid #53534b;
+}
+
+.draggable {
+    width: 70%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Custom colors for each box */
+.draggable[data-number="100"] {
+    background-color: #FF5733;
+}
+
+.draggable[data-number="200"] {
+    background-color: #33FF6B;
+}
+
+.draggable[data-number="300"] {
+    background-color: #FFC233;
+}
+
+.draggable[data-number="400"] {
+    background-color: #337DFF;
+}
+
+.draggable[data-number="500"] {
+    background-color: #FF33B2;
+}
+
+.draggable[data-number="600"] {
+    background-color: #33FFF1;
+}
+
+.draggable[data-number="700"] {
+    background-color: #A033FF;
+}
+
+.draggable[data-number="800"] {
+    background-color: #FF337D;
+}
+
+.draggable[data-number="900"] {
+    background-color: #33FF33;
+}
